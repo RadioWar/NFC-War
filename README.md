@@ -44,7 +44,7 @@ It’s the previous project which mfoc-like application for Android, and re-name
 
 #NFC-War Change Log:
 
-Fix several bugs while reading cards
-Fix “Null history record force exit” bug
-Fix bug in key number display
-Fix “Feedback Force Exit” bug
+	•	Fix several bugs while reading cards
+	•	Fix “Null history record force exit” bug
+	•	Fix bug in key number display
+	•	Fix “Feedback Force Exit” bug
