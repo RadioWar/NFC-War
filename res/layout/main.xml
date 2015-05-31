@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#999" >
+
+	<ScrollView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:scrollbars="none"
+	    >
+	<LinearLayout 
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:orientation="vertical"
+	    >
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"  android:gravity="center" android:layout_marginTop="20dp"  >
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			    <RelativeLayout style="@style/LeftItem">
+			    <Button android:id="@+id/btnReadCard" android:background="@drawable/tag"
+					style="@style/MainIconButton"  
+					/>
+				<TextView android:id="@+id/tv" android:text="ReadCard"
+				    style="@style/MainIconText"
+					android:layout_below="@id/btnReadCard"  />
+				</RelativeLayout>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			    <RelativeLayout style="@style/RightItem">
+				<Button android:id="@+id/btnKeyManager" android:background="@drawable/keymanager"
+					style="@style/MainIconButton" />
+				<TextView android:id="@+id/tv2" android:text="KeyManager"
+					style="@style/MainIconText" android:layout_below="@id/btnKeyManager" />
+				</RelativeLayout>
+			</RelativeLayout>
+	</LinearLayout>
+	
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"  android:gravity="center" android:layout_marginTop="30dp"  >
+	    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			    <RelativeLayout style="@style/LeftItem">
+				<Button android:id="@+id/btnHistory" android:background="@drawable/history"
+					style="@style/MainIconButton" />
+				<TextView android:id="@+id/tv3" android:text="History"
+					style="@style/MainIconText" android:layout_below="@id/btnHistory"  />
+				</RelativeLayout>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			    <RelativeLayout style="@style/RightItem">
+				<Button android:id="@+id/btnWar" android:background="@drawable/steal"
+					style="@style/MainIconButton" />
+				<TextView android:id="@+id/tv4" android:text="War"
+					style="@style/MainIconText" android:layout_below="@id/btnWar" />
+				</RelativeLayout>
+			</RelativeLayout>
+	</LinearLayout>
+	    
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"  android:gravity="center" android:layout_marginTop="30dp" >
+	    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			    <RelativeLayout style="@style/LeftItem">
+				
+				</RelativeLayout>
+			</RelativeLayout>
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" >
+			    <RelativeLayout style="@style/RightItem">
+				<Button android:id="@+id/btnMore" android:background="@drawable/more"
+					style="@style/MainIconButton" />
+				<TextView android:id="@+id/tv6" android:text="More"
+					style="@style/MainIconText" android:layout_below="@id/btnMore"/>
+				</RelativeLayout>
+			</RelativeLayout>
+	</LinearLayout>
+	</LinearLayout>
+	</ScrollView>
+</LinearLayout>  
+
+

@@ -1,0 +1,83 @@
+# view AndroidManifest.xml #generated:71
+-keep class com.umeng.common.net.DownloadingService { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.umeng.fb.ui.FeedbackConversation { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.umeng.fb.ui.FeedbackConversations { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.umeng.fb.ui.SendFeedback { <init>(...); }
+
+# view res/layout/umeng_fb_conversation.xml #generated:11
+-keep class com.umeng.fb.ui.ThreadView { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class org.radiowar.taginfo.activity.history.HistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class org.radiowar.taginfo.activity.keymanager.KeyFileChooserActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class org.radiowar.taginfo.activity.keymanager.KeyManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class org.radiowar.taginfo.activity.main.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:24
+-keep class org.radiowar.taginfo.activity.main.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class org.radiowar.taginfo.activity.more.AboutUsActivity { <init>(...); }
+
+# view res/layout/more.xml #generated:11
+# view res/layout/more.xml #generated:22
+# view res/layout/more.xml #generated:33
+# view res/layout/viewcard.xml #generated:11
+# view res/layout/viewcard.xml #generated:22
+# view res/layout/viewcard.xml #generated:33
+-keep class org.radiowar.taginfo.activity.more.CornerListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class org.radiowar.taginfo.activity.more.MoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class org.radiowar.taginfo.activity.readcard.DataListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class org.radiowar.taginfo.activity.readcard.ReadCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class org.radiowar.taginfo.activity.readcard.TagInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class org.radiowar.taginfo.activity.readcard.ViewCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class org.radiowar.taginfo.activity.readcard.WriteCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class org.radiowar.taginfo.activity.readcard.accesscondition.AccessConditionActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class org.radiowar.taginfo.activity.war.ReadyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
+-keep class org.radiowar.taginfo.activity.war.WarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class org.radiowar.taginfo.application.TagInfoApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class org.radiowar.taginfo.view.CopyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class org.radiowar.taginfo.view.DataListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:62
+-keep class org.radiowar.taginfo.view.KeyListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class org.radiowar.taginfo.view.ReaderActivity { <init>(...); }
+

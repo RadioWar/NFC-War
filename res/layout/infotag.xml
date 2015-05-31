@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:text="title">
+  <RelativeLayout
+     android:layout_width="wrap_content"
+ 	 android:layout_height="wrap_content"
+ 	 android:layout_centerHorizontal="true"
+ 	 android:layout_centerVertical="true"
+ 	 android:layout_margin="10dp"
+      >
+
+    <Button 
+		android:id="@+id/btnScan" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"  
+		android:gravity="center"				 
+		android:text="Scan a tag" />   
+	<Button 
+		android:id="@+id/btnOpen" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"  
+		android:layout_below="@id/btnScan"
+		android:layout_marginTop="10dp"
+		android:gravity="center"				 
+		android:text="Open dump file" />
+	<Button 
+		android:id="@+id/btnSetup" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"  
+		android:layout_below="@id/btnOpen"
+		android:layout_marginTop="10dp"
+		android:gravity="center"				 
+		android:text="Setup access keys" />
+	<Button 
+		android:id="@+id/btnHistory" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"  
+		android:layout_below="@id/btnSetup"
+		android:layout_marginTop="10dp"
+		android:gravity="center"				 
+		android:text="Scan history" />
+	</RelativeLayout>     
+</RelativeLayout>

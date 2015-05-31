@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.radiowar.taginfo"
+    android:versionCode="2"
+    android:versionName="0.0.2" >
+
+    <uses-sdk android:minSdkVersion="10" />
+    
+	<uses-permission android:name="android.permission.NFC" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+	<uses-permission android:name="android.permission.READ_LOGS"></uses-permission>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />  
+	
+	<uses-feature android:name="android.hardware.nfc" android:required="true" />
+	
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" android:name=".application.TagInfoApp">        
+        <activity
+            android:label="@string/app_name"
+            android:name=".activity.main.SplashActivity"
+            android:screenOrientation="portrait" 
+            android:theme="@android:style/Theme.NoTitleBar" >
+         	<intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.main.MainActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+        <activity android:name=".activity.readcard.ReadCardActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.readcard.ViewCardActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.readcard.DataListActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.readcard.TagInfoActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.readcard.accesscondition.AccessConditionActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.readcard.WriteCardActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		
+		<activity android:name=".activity.keymanager.KeyManagerActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.keymanager.KeyFileChooserActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<!--  <activity
+		        android:name=".activity.keymanager.KeyFileChooserActivity"
+		        android:label="Choose a file"
+		        android:theme="@android:style/Theme.Light"
+		        android:configChanges="orientation|keyboard|keyboardHidden|screenSize" >
+		</activity> -->
+		
+		<activity android:name=".activity.history.HistoryActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		
+		<activity android:name=".activity.war.WarActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.war.ReadyActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		
+		<activity android:name=".activity.more.MoreActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+		<activity android:name=".activity.more.AboutUsActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+        
+        <activity android:name=".view.ReaderActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+        <activity android:name=".view.CopyActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+        <activity android:name=".view.DataListActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+        <activity android:name=".view.KeyListActivity" android:screenOrientation="portrait" android:theme="@style/TitleBarTheme"></activity>
+   
+        <activity android:name="com.umeng.fb.ui.SendFeedback" android:windowSoftInputMode="adjustResize" />
+		<activity android:name="com.umeng.fb.ui.FeedbackConversations" />
+		<activity android:name="com.umeng.fb.ui.FeedbackConversation" android:configChanges="keyboard" />
+        
+        <meta-data android:value="5008474052701557ab000056" android:name="UMENG_APPKEY"></meta-data>
+		<meta-data android:value="Test Channel 1" android:name="UMENG_CHANNEL"/>
+
+		<service
+	    android:name="com.umeng.common.net.DownloadingService"
+	    android:exported="true"
+	    android:process=":DownloadingService" >
+		</service>
+		
+        </application>
+	
+</manifest>
+
+
+
+

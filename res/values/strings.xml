@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TagInfoActivity!</string>
+    <string name="app_name">NFC-WAR</string>
+	<string name="open_file">打开文件</string>
+</resources>

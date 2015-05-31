@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#808080</color>
+	<color name="listview_background_start">#3A5FCD</color>
+    <color name="listview_background_end">#27408B</color>
+    <color name="listview_background_item_pressed_start">#FF7F00</color>
+    <color name="listview_background_item_pressed_end">#EE7600</color>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget33"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:padding="5dp"
+>
+
+	<TextView
+	android:id="@+id/text"
+	android:textColor="#FFFFFF"
+	android:textSize="16sp"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:typeface="monospace"
+	android:text="File Name:"
+	/>
+    
+	<TextView
+	android:id="@+id/fileName"
+	android:textColor="#FFFFFF"
+	android:textSize="18sp"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_below="@id/text"
+	android:typeface="monospace"
+	/>
+
+</RelativeLayout>
+
